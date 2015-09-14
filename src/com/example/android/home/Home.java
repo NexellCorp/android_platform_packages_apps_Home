@@ -135,8 +135,9 @@ public class Home extends Activity {
         registerIntentReceivers();
         Slog.i(LOG_TAG, "registerIntentReceivers End");
 
-        setDefaultWallpaper();
-        Slog.i(LOG_TAG, "setDefaultWallpaper End");
+        // psw0523 test
+        // setDefaultWallpaper();
+        // Slog.i(LOG_TAG, "setDefaultWallpaper End");
 
         loadApplications(true);
         Slog.i(LOG_TAG, "loadApplication End");
